@@ -37,7 +37,7 @@ ESX.RegisterServerCallback("esx-qalle-sellvehicles:isVehicleValid", function(sou
 	local src = source
 	local xPlayer = ESX.GetPlayerFromId(src)
     
-    local plate = vehicleProps["plate"]
+    local plate = vehicleProps.plate
 
 	local isFound = false
 
